@@ -6,81 +6,83 @@
     <title>ubcall85 CV</title>
   </head>
   <body>
-    <img
-      src="https://sun9-36.userapi.com/impg/HR9mUZsla7dgT6M38OB8S3Cx2B5-MzNcsMUg_g/ow5W-ojBqdA.jpg?size=735x926&quality=96&sign=7600ebe5537c767fce2937e1a31195e2&type=album"
-      width="200px"
-      alt="тут моя фотка"
-    />
+    <div class="container">
+      <div class="info">
+        <img
+          src="https://sun9-36.userapi.com/impg/HR9mUZsla7dgT6M38OB8S3Cx2B5-MzNcsMUg_g/ow5W-ojBqdA.jpg?size=735x926&quality=96&sign=7600ebe5537c767fce2937e1a31195e2&type=album"
+          alt="тут моя фотка"
+          class="avatar"
+        />
+        <div class="info-text">
+          <h1>ubcall85</h1>
+          <p>Я студент <strong>колледжа связи</strong></p>
+          <p>В свободное время мне нравится писать код и когда собрание?</p>
 
-    <h1>ucball85</h1>
-    <p>
-      <em>Я студент <strong>колледжа связи</strong></em>
-    </p>
-    <p>В свободное время мне нравится писать код и когда собрание?</p>
+          <h4>Мои социальные сети</h4>
 
-    <hr />
+          <a href="https://vk.com/ubcall85" target="_blank">Вконтакте</a>
+          |
+          <a href="https://t.me/Alexanderwat" target="_blank">Телеграмм</a>
+        </div>
+      </div>
 
-    <h2>Мои социальные сети</h2>
-    <ul type="circle">
-      <li><a href="https://vk.com/ubcall85" target="_blank">Вконтакте</a></li>
-      <li><a href="https://t.me/Alexanderwat" target="_blank">Телеграмм</a></li>
-    </ul>
-
-    <hr />
-
-    <h2>Технологиии, которые я использую</h2>
-    <ol>
-      <li>html, css, js</li>
-      <li>jquery</li>
-      <li>React.js</li>
-    </ol>
-
-    <hr />
-
-    <h2>Опыт работы</h2>
-    <table>
-      <tr>
-        <th>Компния</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </tr>
-      <tr>
-        <td>Dorisuteru</td>
-        <td>frontend-developer</td>
-        <td>2022</td>
-      </tr>
-      <tr>
-        <td>Vы</td>
-        <td>full-stack developer</td>
-        <td>2023</td>
-      </tr>
-    </table>
-
-    <hr />
-
-    <h2>Посмотреть мои проекты можно здесь</h2>
-    <a href="github.html" target="_blank">мой гитхаб</a>
-
-    <hr />
-
-    <h2>Свзяться со мной</h2>
-    <form>
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите ваше имя" />
-
-      <br />
-
-      <label for="email">Ваш email:</label>
-      <input type="text" id="email" placeholder="Введите ваш email" />
-
-      <br />
-
-      <label for="text">Ваше сообщение:</label><br />
-      <textarea id="text"></textarea>
-
-      <br />
-
-      <input type="submit" value="Связаться" />
-    </form>
+      <div class="card bg-yellow">
+        <h2>Технологиии, которые я использую</h2>
+        <ol class="list">
+          <li>html, css, js</li>
+          <li>jquery</li>
+          <li>React.js</li>
+        </ol>
+      </div>
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <th>Компния</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+          <tr>
+            <td>Dorisuteru</td>
+            <td>frontend-developer</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Vы</td>
+            <td>full-stack developer</td>
+            <td>2023</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <h2>Посмотреть мои проекты можно здесь</h2>
+        <ul class="link-list">
+          <li><a href="github.html" target="_blank">мой гитхаб</a></li>
+          <li><a href="github.html" target="_blank">мой гитхаб</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="contact">
+          <h2>Свзяться со мной</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите ваше имя" />
+              </div>
+              <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="text" id="email" placeholder="Введите ваш email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="text">Ваше сообщение:</label>
+              <textarea id="text"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Связаться" />
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
